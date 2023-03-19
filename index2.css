@@ -1,0 +1,218 @@
+img{
+    width: 270px;
+    height: 300px;
+    float: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    
+    
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://www.natthan.fr/wp-content/uploads/2017/03/imagesavions-1.jpg);
+    background-size: cover;
+    height: 100%;
+    top: 600px;
+    
+    
+   }
+   
+   
+   header {
+    height: 100px;
+    z-index: 10;
+    position: fixed;
+    width: 85%;
+     top: 600px;
+     margin-left: 7.5%;
+     background-size: cover;
+     background-image: url(https://th.bing.com/th/id/R.413877fb1be102899acc6a82b854b552?rik=C5TrDMP2S%2fpS2A&riu=http%3a%2f%2fwww.maximumwall.com%2fwp-content%2fuploads%2f2015%2f07%2ffonds-ecran-ciel-12.jpg&ehk=noqNFipecMV0EoayEiCjxKQhPNICPghAVwhsNJDxZM8%3d&risl=&pid=ImgRaw&r=0);
+   }
+
+
+
+   
+   
+
+
+
+   .logo {
+    width: 30%;
+    float: right;
+    line-height: 150px;
+   }
+   .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: #fff;
+    letter-spacing: 5px;
+   }
+   nav {
+    float: right;
+    font-size: 30px;
+    line-height: 50px;
+    position: fixed;
+   }
+   nav a {
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0 10px;
+    color: white;
+   }
+   .mafé {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 0;
+    line-height: normal;
+    background-image: url(https://www.natthan.fr/wp-content/uploads/2017/03/imagesavions-1.jpg);
+    background-size: cover;
+   }
+   
+   
+   .mafé h2 {
+    padding-top: 0%;
+    font-size: 45px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   }
+
+   .mafé h3 {
+       color: white;
+       text-align: center;
+       line-height: 400%;
+       font-size: 35px;
+       font-style: italic;
+   }
+   
+ .contenu h2 {
+    font-family: poppins;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    font-size: 20px;
+    margin: 0;
+    color: black;
+   }
+
+   .contenu p {
+    font-family: poppins;
+    letter-spacing: 2px;
+    
+    font-size: 10px;
+    margin: 0;
+    color: black;
+   }
+  
+   
+   
+   .style {
+    display: inline-block;
+    padding: 5%;
+    
+    
+   }
+
+   .contenu {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 100px;
+ background-image: url(https://www.natthan.fr/wp-content/uploads/2017/03/imagesavions-1.jpg);
+ background-size: cover;
+    height: 680px;
+    margin-bottom: 50px;
+    opacity: 10px;
+    
+    
+    
+
+   }
+
+   .card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: #ededed;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.25);
+    transition: 1s;
+    border: bisque;
+}
+.card:hover{
+    transform: translateX(5%);
+    
+}
+
+
+.card .imgbox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card:hover .imgbox{
+    transform: translateY(25%);
+}
+
+.card .imgbox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform-style: preserve-3d;
+    transition: 1s;
+}
+.card .details{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: inline-table;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://th.bing.com/th/id/R.413877fb1be102899acc6a82b854b552?rik=C5TrDMP2S%2fpS2A&riu=http%3a%2f%2fwww.maximumwall.com%2fwp-content%2fuploads%2f2015%2f07%2ffonds-ecran-ciel-12.jpg&ehk=noqNFipecMV0EoayEiCjxKQhPNICPghAVwhsNJDxZM8%3d&risl=&pid=ImgRaw&r=0);
+}
+.card .details .content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(https://th.bing.com/th/id/R.413877fb1be102899acc6a82b854b552?rik=C5TrDMP2S%2fpS2A&riu=http%3a%2f%2fwww.maximumwall.com%2fwp-content%2fuploads%2f2015%2f07%2ffonds-ecran-ciel-12.jpg&ehk=noqNFipecMV0EoayEiCjxKQhPNICPghAVwhsNJDxZM8%3d&risl=&pid=ImgRaw&r=0);
+    
+}
+.card .details .content h2{
+    text-align:center;
+    font-weight: 700;
+    line-height: 1em;
+    font-size: 20px;
+    color: white;
+}
+
+    
+
+
+.contenu h1{
+    color: white;
+    text-align: center;
+    
+    font-size: 30px;
+    font-style: italic;
+}

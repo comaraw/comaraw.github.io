@@ -1,0 +1,128 @@
+img{
+    width: 440px;
+    height: 300px;
+    float: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/R.ea777f6d354f655183f145da3417eed9?rik=jiG3EYxSfGud7g&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2015%2f09%2f20%2fbackground-2015_111525910_269.jpg&ehk=XpB35TDfpT5%2b7egn8f%2fPff5NHq8XfbMOYLrvHJGlMnE%3d&risl=&pid=ImgRaw&r=0);
+   }
+   
+   
+   header {
+    height: 100px;
+    z-index: 10;
+    position: fixed;
+    width: 85%;
+     top: 600px;
+     margin-left: 7.5%;
+     background-size: cover;
+     background-image: url(https://th.bing.com/th/id/R.ae70366c093a7431e72c266890b32f70?rik=npKJBFG%2btoTfjw&riu=http%3a%2f%2fil5.picdn.net%2fshutterstock%2fvideos%2f1638481%2fthumb%2f1.jpg&ehk=KhiU1qpm8byvRsgxVnaeuj%2fuvIj8W66VHThmIyK8c30%3d&risl=&pid=ImgRaw&r=0);
+    
+ 
+
+   }
+   .logo {
+    width: 30%;
+    float: right;
+    line-height: 150px;
+   }
+   .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: #fff;
+    letter-spacing: 5px;
+   }
+   nav {
+    float: right;
+    line-height: 50px;
+    position: fixed;
+    font-size: 30px;
+   }
+   nav a {
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0 10px;
+    color: white;
+   }
+   .mafé {
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/R.ea777f6d354f655183f145da3417eed9?rik=jiG3EYxSfGud7g&riu=http%3a%2f%2fs1.picswalls.com%2fwallpapers%2f2015%2f09%2f20%2fbackground-2015_111525910_269.jpg&ehk=XpB35TDfpT5%2b7egn8f%2fPff5NHq8XfbMOYLrvHJGlMnE%3d&risl=&pid=ImgRaw&r=0);
+    height: 300px;
+    position: relative;
+    top: 10px;
+    line-height: normal;
+    background-size: cover;
+   }
+   
+   
+   .mafé h2 {
+    padding-top: 0%;
+    margin-left: 440px;
+    font-size: 55px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3%;
+    
+   }
+   .mafé h3 {
+       color: rgb(6, 6, 6);
+       margin-left: 500px;
+       text-align: center;
+       line-height: 400%;
+       font-size: 35px;
+       font-style: italic;
+   }
+   .contenu {
+    width: 80%;
+    margin-left: 10%;
+    position: relative;
+    top: 0px;
+ background-size: cover;
+ background-image: url(https://th.bing.com/th/id/R.b4bfafa2dccc4cf3fe24f774b3f13b12?rik=Pq2jkxZgsEsWXg&riu=http%3a%2f%2favante.biz%2fwp-content%2fuploads%2fBackground-Images%2fBackground-Images-004.jpg&ehk=JkP3gR%2fEjPJju6GcewJmG16m3AkkVlAGfYeu0tfvWUc%3d&risl=&pid=ImgRaw&r=0);
+    height: 600px;
+    
+    }
+    
+    .contenu .lalala p{
+font-size: 30px;
+font-style: italic;
+color: white;
+    }
+
+
+
+.description{
+background-color: azure;
+
+}
+.lalala img {
+padding-top: 4%;
+
+
+}
+ h4{
+    color: azure;
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: inherit;
+    
+}
+
+
+
+
+

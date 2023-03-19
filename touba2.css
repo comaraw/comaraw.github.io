@@ -1,0 +1,140 @@
+img{
+    width: 440px;
+    height: 300px;
+    float: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+   }
+   body {
+    
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://th.bing.com/th/id/R.dc09856df46f1ed2fae527c3fda5e9e4?rik=prFM4pkhO342Xw&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f510ff5c8e4b037c811a873c5%2f51103baae4b0c0190c3a3d68%2f51157eb4e4b04512ec7c89a7%2f1360621305621%2fGrand%2bMosque%2bDe%2bTouba.jpg&ehk=iki%2b%2bx5BHcPmo3nE%2bPYUKPwq2KS9ji08Rn6nz0HERB4%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+   }
+   
+   
+   header {
+    height: 100px;
+    z-index: 10;
+    position: fixed;
+    width: 85%;
+     top: 600px;
+     margin-left: 7.5%;
+     background-size: cover;
+     background-color: rgb(173, 109, 12);
+    
+ 
+
+   }
+   .logo {
+    width: 30%;
+    float: right;
+    line-height: 150px;
+   }
+   .logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: poppins;
+    color: #fff;
+    letter-spacing: 5px;
+   }
+   nav {
+    float: right;
+    line-height: 50px;
+    position: fixed;
+    font-size: 30px;
+   }
+   nav a {
+    text-decoration: wavy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin: 0 10px;
+    color: rgb(226, 230, 255);
+   }
+   .mafé {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    top: 10px;
+    
+    line-height: normal;
+    background-image: url(https://th.bing.com/th/id/R.dc09856df46f1ed2fae527c3fda5e9e4?rik=prFM4pkhO342Xw&riu=http%3a%2f%2fstatic1.squarespace.com%2fstatic%2f510ff5c8e4b037c811a873c5%2f51103baae4b0c0190c3a3d68%2f51157eb4e4b04512ec7c89a7%2f1360621305621%2fGrand%2bMosque%2bDe%2bTouba.jpg&ehk=iki%2b%2bx5BHcPmo3nE%2bPYUKPwq2KS9ji08Rn6nz0HERB4%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+   }
+   
+   
+   .mafé h2 {
+    padding-top: 0%;
+    font-size: 45px;
+    font-family: poppins;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 3%;
+    
+   }
+   .mafé h3 {
+       color: white;
+       text-align: center;
+       line-height: 400%;
+       font-size: 35px;
+       font-style: italic;
+       line-height: 50px;
+   }
+   .mafé h5{
+    color: white;
+       text-align: center;
+       line-height: 400%;
+       font-size: 35px;
+       font-style: italic;
+       line-height: 50px;
+   }
+   .contenu {
+    width: 100%;
+   position: relative;
+top: 600px;
+ background-size: cover;
+ height: 100%;
+    
+    }
+    
+    .contenu .lalala p{
+font-size: 20px;
+font-style: italic;
+color: white;
+    }
+
+
+
+
+.lalala img {
+padding-top: 4%;
+
+
+}
+ h4{
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    color: rgb(230, 137, 23);
+    background-color: black;
+    
+}
+.lalala{
+    padding-bottom: 5%;
+}
+p{
+    padding: 3% ;
+}
+
+
+
+
+
+
